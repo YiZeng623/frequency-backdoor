@@ -1,7 +1,10 @@
-# frequency-backdoor
+# Requirments
+tensorflow == 1.15.0;<br> 
+pytorch == 1.4.0;<br>
+albumentations == 0.4.5;<br>
+tqdm;<br>
+numpy;<br>
+cv2;<br>
 
-Currently support attacks including:   
-{'l2_inv', 'l0_inv', 'trojan_wm', 'trojan_sq', 'badnets', 'nature'}
-
-one can use the following line to evaluate the excisting backdoors:   
-python3 inference_cifar10.py --name badnets
+# Usage
+We provide the code of **training and testing a frequency-based backdoor detector** and the code of **generating low-frequency constraint trigger given a pre-trained model**.
