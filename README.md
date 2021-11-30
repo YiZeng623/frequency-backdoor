@@ -1,5 +1,5 @@
 # Rethinking the Backdoor Attacks' Triggers: A Frequency Perspective
-This is the official implementation of the paper: 'Rethinking the Backdoor Attacks' Triggers: A Frequency Perspective .' 
+This is the official implementation of the ICCV paper: 'Rethinking the Backdoor Attacks' Triggers: A Frequency Perspective .' 
 
 Backdoor attacks have been considered a severe security threat to deep learning. Such attacks can make models perform abnormally on inputs with predefined triggers and still retain state-of-the-art performance on clean data. While backdoor attacks have been thoroughly investigated in the image domain from both attackers' and defenders' sides, an analysis in the frequency domain has been missing thus far.
 
